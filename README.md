@@ -5,8 +5,6 @@ A full-stack web app to evaluate password strength and detect breaches in real t
 ![Screenshot](./screenshot.png)
 
 ## 🧠 How It Works
-
-This app allows you to:
 - Enter any password
 - Check its length, entropy, character variety
 - See estimated time to crack it (brute-force)
@@ -15,18 +13,18 @@ This app allows you to:
 
 ---
 
-## ⚙️ Features
+## Features
 
-✅ Password strength metrics  
-✅ Entropy & brute-force time estimator  
-✅ HIBP breach check via SHA-1 & k-anonymity  
-✅ SHA-256, bcrypt, argon2 hash previews  
-✅ Toggle password visibility  
-✅ React + Django REST architecture  
+Password strength metrics  
+Entropy & brute-force time estimator  
+HIBP breach check via SHA-1 & k-anonymity  
+SHA-256, bcrypt, argon2 hash previews  
+Toggle password visibility  
+React + Django REST architecture  
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 ### Frontend:
 - React

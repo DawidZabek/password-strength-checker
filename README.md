@@ -1,4 +1,4 @@
-# 🔐 Password Strength Checker
+# Password Strength Checker
 
 A full-stack web app to evaluate password strength and detect breaches in real time.
 
@@ -40,3 +40,14 @@ This app allows you to:
 - requests (for HIBP)
 
 ---
+### Backend setup:
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py runserver
+
+---
+### Frontend setup:
+cd frontend
+npm install
+npm start

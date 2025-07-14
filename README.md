@@ -4,7 +4,7 @@ A full-stack web app to evaluate password strength and detect breaches in real t
 
 ![Screenshot](./screenshot.png)
 
-## 🧠 How It Works
+## How It Works
 - Enter any password
 - Check its length, entropy, character variety
 - See estimated time to crack it (brute-force)
@@ -39,13 +39,16 @@ React + Django REST architecture
 
 ---
 ### Backend setup:
+```
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
-
+```
 ---
 ### Frontend setup:
+```
 cd frontend
 npm install
 npm start
+```
